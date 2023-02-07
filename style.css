@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+  }
+  
 body {
     background-color: #e8e9e4;
     font-family: 'Lato', sans-serif;
@@ -72,21 +76,31 @@ body {
     color: #000000;
   }
  
-  a {/* element selector */
+  a {
     color: red;
   }
   
-  #my-link {/* id selector */
+  #my-link {
     color: green;  
   }
   
-  .my-link {/* class selector */
+  .my-link {
     color: blue;  
   }
+  /* Layout styling */
   header {
     background-color: #96b095;
     padding-top: 10px;
     padding-right: 5px;
     padding-bottom: 15px;
     padding-left: 5px;
+    border-bottom: 3px solid #324142;
+  }
+  selector {
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+  }
+  .container {
+    max-width: 1200px;
   }
