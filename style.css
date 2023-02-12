@@ -2,6 +2,25 @@
 * {
     box-sizing: border-box;
   }
+*{
+    margin: 0;
+    padding: 0;
+}
+    div{
+        display:block;
+    }
+
+    #hero {
+        background-color: #96b095;
+        padding: 20px 0;
+        display: inline-block;
+        width:100%;
+        text-align:center;
+    }
+    
+  .content {
+    margin-top: 75px;
+  }
   
 body {
     background-color: #e8e9e4;
@@ -87,20 +106,136 @@ body {
   .my-link {
     color: blue;  
   }
-  /* Layout styling */
-  header {
-    background-color: #96b095;
-    padding-top: 10px;
-    padding-right: 5px;
-    padding-bottom: 15px;
-    padding-left: 5px;
-    border-bottom: 3px solid #324142;
+  ol{
+    display:incline-block;
   }
-  selector {
+  /* Layout styling */
+
+  .container {
+    max-width: 1200px;
+    padding:0 15px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+#about-nav .container {
+    padding: 0;
+    margin: 0;
+}
+#about-nav .row {
+    padding: 0;
+    margin-top: -10px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    margin: 0px 0;
+    display:block;
+}
+#hero.container {
+    padding:0;
+    margin:0;
+}
+#hero.row {
+    padding:0;
+    margin-top: -10px;
+    padding-bottom: 0px;
+    border-bottom: 0px
+    solid #96b095;
+    padding-top: 0px;
+    text-align: left;
+    margin: 0px 0;
+    display:block;
+}
+.row {
+    padding-bottom: 25px;
+    border-bottom: 1px
+    solid #96b095;
+    padding-top: 15px;
+    text-align: left;
+    margin: 25px 0;
+    display: block;
+    
+  }
+  #hero h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    margin: 20px 0;
+ }
+
+  .logo h1{
+    text-align: center;
+  }
+  header {
+    padding: 10px;
+    text-align: center;
+    background-color: #96b095;
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    border-bottom: 3px solid #ffffff;
+  } 
+  #hero p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0;
+    line-height: 1.5;
+    margin:0;
+  }
+   .selector {
     margin: 0 auto;
     position: relative;
     width: 80%;
   }
-  .container {
-    max-width: 1200px;
+nav {
+    position: fixed;
+    background-color: #96b095;
+    z-index: 1000;
+    width:100%;
+    padding:20px;
+}
+  nav>ul {
+    max-width: 250px;
+    padding: 10px 0;
+    margin: 10px 0;
   }
+  nav > ul > li {
+    display: inline-block;
+  }
+ 
+  nav>ul>li>a {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #324a42;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding: 0;
+    margin: 0 10px;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+  nav>ul>li>a:hover {
+    color:#96b095
+  }
+ .pic img {
+    width:40%;
+    margin: 10px;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+
+ }
+ footer {
+    text-align:center;
+    padding: 30px;
+ }
+ #about {
+    display:inline-block;
+ }
