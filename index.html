@@ -9,79 +9,82 @@
         <link rel="icon" type="image/png" href="img/branding/favicon.ico" sizes="32x32">
         <title>Chloe Trasaun's Portfolio</title>
     </head>
-    <body>
-       
-       <header>
-        <nav style="display: block;">
-            <div class="row">
-              <div>
-                <div class="logo">
-                  <h3>Chloe Trasaun</h3>
-              <ul class="nav-menu list-unstyled">
-              <li><a href="index.html" class="">Projects</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              </ul>
-          </nav>
-        </div>
-    </header>
-<main>
-    <div><div>
-      <div id="hero">
+
+    <body id="header">
+      <header>
         <div class="container">
-          <h1>Hi! My name is Chloe Cox</h1>
-      <p>I am a UX/UI Designer passionate about making the digital world a more usuable space.</p>
-    </div></div>
-          <div><div>
+          <div class="navtoggle" id="myNavtoggle">
+            <div class="logo">
+              <h3>Chloe Trasaun</h3>
+            <nav>
+              <ul class="navigation">
+                <li><a href="index.html">Work</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                  <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div id="hero">
+          <div class="container">
+            <h1>Hi! My name is Chloe Cox</h1>
+            <p>I am a UX/UI Designer passionate about making the digital world a more usuable space.</p>
+          </div>
+        </div>
+        <div id="work">
+          <div class="container">
+            <h2>My Work</h2>
             <div>
-              <div id="work">
-                <div class="container">
-                  <h2> My Work</h2>
-                  <div class="row"></div>
+              <div class="row">
+                <div class="column col-md-6 col-lg-7">
+                  <picture>
+                    <source srcset="img/desktop-tumz1.jpg" media="(max-width:767px)">
+               <img src="img/desktop-tumz1.jpg" alt="TUMZ Desktop Image">
+                  </picture>
+                </div>
+                <div class="column col-md-6 col-lg-5">
+                  <h3>TUMZ</h3>
+                  <p>TUMZ is a customizable tracking health resource for users with GI health disorders to track their symptoms and better understand their own individual condition. Offering Coaching Services, Tracking with pattern recognition, and access to a toolkit for flare ups.</p>
+                  <a href="tumz.html" class="button">View Project</a>
                 </div>
               </div>
-              <picture>
-                <div class="container">
-               <source srcset="img/desktop-tumz1.jpg" media="(max-width:767px)">
-               <img src="img/desktop-tumz1.jpg" alt="TUMZ Desktop Image">
-          </picture>
-            </div>
-          <div>
-        <div>
-          <h3>TUMZ</h3>
-              <p>
-                TUMZ is a customizable tracking health resource for users with GI health disorders to track their symptoms and better understand their own individual condition. Offering Coaching Services, Tracking with pattern recognition, and access to a toolkit for flare ups.
-              </p>
-                <p>
-                   Throughout this project, I have learned how to conduct multiple different kinds fo user studies and how to prototype and wireframe the application's foundation.
-                </p>
-                  <a href="#" class="button">Read more</a>
-                  <div></div>
-        </div>
-    </div></div>
-<main>
-  <div><div>
-      <div>
-          <picture>
-            <div class="container">
-              <source srcset="img/desktop-project2.jpg" media="(max-width:767px)">
-              <img src="img/desktop-project2.jpg" alt="Project #2 images">
-          </picture>
-      </div>
-      <div>
-    </div>
-      <div>
-          <h3>Project #2</h3>
-              <p>
-                  This is a super great wonderful project that I have yet to create, but will be awesome.
-              </p>
+              <div class="row">
+                <div class="column col-md-6 col-lg-7">
+                  <picture>
+                    <source srcset="img/desktop-project2.jpg" media="(max-width:767px)">
+                    <img src="img/desktop-project2.jpg" alt="Project #2 images">
+                  </picture>
+                </div>
+                <div class="column col-md-6 col-lg-5">
+                  <h3>Project #2</h3>
                   <p>
-                    This project is going to teach me so many useful great skills.
+                    This is a super great wonderful project that I have yet to create, but will be awesome.
                   </p>
-                  <a href="#" class="button">Read more</a>
-      </div>
-  </div></div>
-</main>
+                  <a href="#" class="button">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column col-md-6 col-lg-7">
+                <picture>
+                  <img src="img/girl.svg">
+                  </picture>
+              </div>
+              <div class="column col-md-6 col-lg-5">
+                <h3>And many more projects to come!</h3>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </main>
+       
+     
 <footer>
   <div>
     <div class="container">
